@@ -1,0 +1,66 @@
+[
+    {
+        "name": "console",
+        "entries": [
+            {
+                "synonyms": [
+                    "Nintendo Entertainment System"
+                ],
+                "value": "NES"
+            },
+            {
+                "synonyms": [
+                    "SNES",
+                    "Super NES",
+                    "Super Nintendo Entertainment System"
+                ],
+                "value": "Super Nintendo"
+            },
+            {
+                "synonyms": [
+                    "Xbox 360"
+                ],
+                "value": "Xbox 360"
+            },
+            {
+                "synonyms": [
+                    "Sega Genesis"
+                ],
+                "value": "Genesis"
+            }
+        ],
+        "id": "b49914f9-f6f8-4c12-846d-496b01e5bb14",
+        "isEnum": true
+    },
+    {
+        "name": "game",
+        "entries": [
+            {
+                "synonyms": [
+                    "Super Mario Bros"
+                ],
+                "value": "Super Mario Bros"
+            },
+            {
+                "synonyms": [
+                    "Dark Souls"
+                ],
+                "value": "Dark Souls"
+            },
+            {
+                "synonyms": [
+                    "Yoshi"
+                ],
+                "value": "Yoshi"
+            },
+            {
+                "synonyms": [
+                    "Starfox"
+                ],
+                "value": "Starfox"
+            }
+        ],
+        "id": "545818f0-6a16-48a9-bd89-4d3661bb9ac9",
+        "isEnum": true
+    }
+]

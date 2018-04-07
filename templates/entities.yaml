@@ -1,0 +1,27 @@
+# Template file for entities
+
+#Format as below
+
+# entity_name:
+#  - entry1: list of synonyms 
+#  - entry2: list of synonyms 
+
+#For example:
+
+# drink:
+#  - water: ['aqua', 'h20'] 
+#  - coffee: ['joe', 'caffeine', 'espresso', 'late'] 
+#  - soda: ['pop', 'coke']
+
+
+
+game:
+- Super Mario Bros
+- Dark Souls
+- Yoshi
+- Starfox
+console:
+- NES: ["Nintendo Entertainment System"]
+- Super Nintendo: ['SNES', "Super NES", "Super Nintendo Entertainment System"]
+- Xbox 360
+- Genesis: ["Sega Genesis"]

@@ -1,0 +1,110 @@
+[
+    {
+        "contexts": [],
+        "fallbackIntent": false,
+        "auto": true,
+        "name": "game-price-intent",
+        "webhookUsed": true,
+        "userSays": [
+            {
+                "isTemplate": false,
+                "data": [
+                    {
+                        "text": "How much does "
+                    },
+                    {
+                        "userDefined": true,
+                        "meta": "@game",
+                        "text": "Super Mario Bros",
+                        "alias": "game"
+                    },
+                    {
+                        "text": " cost"
+                    }
+                ],
+                "count": 0
+            },
+            {
+                "isTemplate": false,
+                "data": [
+                    {
+                        "text": "How much does "
+                    },
+                    {
+                        "userDefined": true,
+                        "meta": "@game",
+                        "text": "Dark Souls",
+                        "alias": "game"
+                    },
+                    {
+                        "text": " cost for the "
+                    },
+                    {
+                        "userDefined": true,
+                        "meta": "@console",
+                        "text": "Xbox 360",
+                        "alias": "console"
+                    }
+                ],
+                "count": 0
+            },
+            {
+                "isTemplate": false,
+                "data": [
+                    {
+                        "text": "How much does "
+                    },
+                    {
+                        "userDefined": true,
+                        "meta": "@game",
+                        "text": "Starfox",
+                        "alias": "game"
+                    },
+                    {
+                        "text": " cost for "
+                    },
+                    {
+                        "userDefined": true,
+                        "meta": "@console",
+                        "text": "Super Nintendo",
+                        "alias": "console"
+                    }
+                ],
+                "count": 0
+            }
+        ],
+        "responses": [
+            {
+                "messages": [],
+                "affectedContexts": [],
+                "parameters": [
+                    {
+                        "dataType": "@game",
+                        "name": "game",
+                        "isList": false,
+                        "defaultValue": "",
+                        "prompts": [],
+                        "value": "$game",
+                        "required": true
+                    },
+                    {
+                        "dataType": "@console",
+                        "name": "console",
+                        "isList": false,
+                        "defaultValue": null,
+                        "prompts": [],
+                        "value": "$console",
+                        "required": false
+                    }
+                ],
+                "resetContexts": false,
+                "action": "game_price"
+            }
+        ],
+        "templates": [],
+        "priority": 500000,
+        "events": [],
+        "webhookForSlotFilling": true,
+        "id": "571df6cc-afbf-48c3-a4a8-1ac5942dc857"
+    }
+]

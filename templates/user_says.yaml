@@ -1,0 +1,30 @@
+# Template for defining UserSays examples
+
+# give-color-intent:
+
+#  UserSays:
+#    - My color is blue
+#    - red is my favorite color
+
+#  Annotations:
+#    - blue: sys.color     # maps param value -> entity
+#    - red: sys.color
+
+#  Events:
+#    - event1              # adds a triggerable event named 'event1' to the intent
+
+
+
+game-price-intent:
+  UserSays:
+  - How much does Super Mario Bros cost
+  - How much does Dark Souls cost for the Xbox 360
+  - How much does Starfox cost for Super Nintendo
+  Annotations:
+  - Super Mario Bros: game
+  - Dark Souls: game
+  - Starfox: game
+  - Xbox 360: console
+  - Super Nintendo: console
+  Events:
+  -
