@@ -1,66 +1,237 @@
 [
     {
+        "isEnum": true,
+        "id": "b49914f9-f6f8-4c12-846d-496b01e5bb14",
         "name": "console",
         "entries": [
             {
+                "value": "NES",
                 "synonyms": [
                     "Nintendo Entertainment System"
-                ],
-                "value": "NES"
+                ]
             },
             {
+                "value": "Super Nintendo",
                 "synonyms": [
                     "SNES",
                     "Super NES",
                     "Super Nintendo Entertainment System"
-                ],
-                "value": "Super Nintendo"
+                ]
             },
             {
+                "value": "Nintendo 64",
                 "synonyms": [
-                    "Xbox 360"
-                ],
-                "value": "Xbox 360"
+                    "N64",
+                    "Sixty-four"
+                ]
             },
             {
+                "value": "Gamecube",
+                "synonyms": [
+                    "GC"
+                ]
+            },
+            {
+                "value": "Wii",
+                "synonyms": [
+                    "Nintendo Wii"
+                ]
+            },
+            {
+                "value": "Wii U",
+                "synonyms": [
+                    "Nintendo Wii U"
+                ]
+            },
+            {
+                "value": "Switch",
+                "synonyms": [
+                    "Nintendo Switch"
+                ]
+            },
+            {
+                "value": "Game Boy",
+                "synonyms": [
+                    "DMG",
+                    "Original Game Boy"
+                ]
+            },
+            {
+                "value": "Game Boy Color",
+                "synonyms": [
+                    "GBC"
+                ]
+            },
+            {
+                "value": "Game Boy Advance",
+                "synonyms": [
+                    "GBA",
+                    "GBA SP",
+                    "Game Boy Micro",
+                    "Game Boy Macro",
+                    "Game Boy Advance SP"
+                ]
+            },
+            {
+                "value": "Nintendo DS",
+                "synonyms": [
+                    "DS",
+                    "NDS",
+                    "DS light",
+                    "DS fat",
+                    "DSi",
+                    "DSi XL"
+                ]
+            },
+            {
+                "value": "Nintendo 3DS",
+                "synonyms": [
+                    "Three DS",
+                    "3DS",
+                    "Nintendo 3DS",
+                    "3 DS",
+                    "Three DS",
+                    "Three DS XL",
+                    "New Three DS",
+                    "Two DS",
+                    "New Two DS XL",
+                    "New Three DS XL"
+                ]
+            },
+            {
+                "value": "Master System",
+                "synonyms": [
+                    "Sega Master System"
+                ]
+            },
+            {
+                "value": "Genesis",
                 "synonyms": [
                     "Sega Genesis"
-                ],
-                "value": "Genesis"
+                ]
+            },
+            {
+                "value": "Saturn",
+                "synonyms": [
+                    "Sega Saturn"
+                ]
+            },
+            {
+                "value": "Dreamcast",
+                "synonyms": [
+                    "Sega Dreamcast"
+                ]
+            },
+            {
+                "value": "Playstation",
+                "synonyms": [
+                    "PS",
+                    "PS1"
+                ]
+            },
+            {
+                "value": "Playstation 2",
+                "synonyms": [
+                    "PS2"
+                ]
+            },
+            {
+                "value": "Playstation 3",
+                "synonyms": [
+                    "PS3"
+                ]
+            },
+            {
+                "value": "Playstation 4",
+                "synonyms": [
+                    "PS4"
+                ]
+            },
+            {
+                "value": "Xbox",
+                "synonyms": [
+                    "Original Xbox"
+                ]
+            },
+            {
+                "value": "Xbox 360",
+                "synonyms": [
+                    "Xbox 360"
+                ]
+            },
+            {
+                "value": "Xbox One",
+                "synonyms": [
+                    "Xbox One"
+                ]
             }
-        ],
-        "id": "b49914f9-f6f8-4c12-846d-496b01e5bb14",
-        "isEnum": true
+        ]
     },
     {
+        "isEnum": true,
+        "id": "545818f0-6a16-48a9-bd89-4d3661bb9ac9",
         "name": "game",
         "entries": [
             {
+                "value": "Super Mario Bros",
                 "synonyms": [
-                    "Super Mario Bros"
-                ],
-                "value": "Super Mario Bros"
+                    "Super Mario Brothers"
+                ]
             },
             {
+                "value": "Super Mario 64",
+                "synonyms": [
+                    "Super Mario 64"
+                ]
+            },
+            {
+                "value": "Demon's Souls",
+                "synonyms": [
+                    "Demon's Souls"
+                ]
+            },
+            {
+                "value": "Dark Souls",
                 "synonyms": [
                     "Dark Souls"
-                ],
-                "value": "Dark Souls"
+                ]
             },
             {
+                "value": "Dark Souls II",
+                "synonyms": [
+                    "Dark Souls II"
+                ]
+            },
+            {
+                "value": "Dark Souls III",
+                "synonyms": [
+                    "Dark Souls III"
+                ]
+            },
+            {
+                "value": "Bloodborne",
+                "synonyms": [
+                    "Bloodborne"
+                ]
+            },
+            {
+                "value": "Yoshi",
                 "synonyms": [
                     "Yoshi"
-                ],
-                "value": "Yoshi"
+                ]
             },
             {
+                "value": "Starfox",
                 "synonyms": [
                     "Starfox"
-                ],
-                "value": "Starfox"
+                ]
+            },
+            {
+                "value": "Professor Layton and the Miracle Mask",
+                "synonyms": [
+                    "Professor Layton and the Miracle Mask"
+                ]
             }
-        ],
-        "id": "545818f0-6a16-48a9-bd89-4d3661bb9ac9",
-        "isEnum": true
+        ]
     }
 ]

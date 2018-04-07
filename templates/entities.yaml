@@ -1,27 +1,35 @@
-# Template file for entities
-
-#Format as below
-
-# entity_name:
-#  - entry1: list of synonyms 
-#  - entry2: list of synonyms 
-
-#For example:
-
-# drink:
-#  - water: ['aqua', 'h20'] 
-#  - coffee: ['joe', 'caffeine', 'espresso', 'late'] 
-#  - soda: ['pop', 'coke']
-
-
-
 game:
-- Super Mario Bros
+- Super Mario Bros: ["Super Mario Brothers"]
+- Super Mario 64
+- Demon's Souls
 - Dark Souls
+- Dark Souls II
+- Dark Souls III
+- Bloodborne
 - Yoshi
 - Starfox
+- Professor Layton and the Miracle Mask
 console:
 - NES: ["Nintendo Entertainment System"]
 - Super Nintendo: ['SNES', "Super NES", "Super Nintendo Entertainment System"]
-- Xbox 360
+- Nintendo 64: ["N64", "Sixty-four"]
+- Gamecube: ["GC"]
+- Wii: ['Nintendo Wii']
+- Wii U: ['Nintendo Wii U']
+- Switch: ["Nintendo Switch"]
+- Game Boy: ["DMG", "Original Game Boy"]
+- Game Boy Color: ["GBC"]
+- Game Boy Advance: ["GBA", "GBA SP", "Game Boy Micro", "Game Boy Macro", "Game Boy Advance SP"]
+- Nintendo DS: ["DS", "NDS", "DS light", "DS fat", "DSi", "DSi XL"]
+- Nintendo 3DS: ["Three DS", "3DS", "Nintendo 3DS", "3 DS", "Three DS", "Three DS XL", "New Three DS", "Two DS", "New Two DS XL", "New Three DS XL"]
+- Master System: ["Sega Master System"]
 - Genesis: ["Sega Genesis"]
+- Saturn: ["Sega Saturn"]
+- Dreamcast: ["Sega Dreamcast"]
+- Playstation: ["PS", "PS1"]
+- Playstation 2: ["PS2"]
+- Playstation 3: ["PS3"]
+- Playstation 4: ["PS4"]
+- Xbox: ["Original Xbox"]
+- Xbox 360
+- Xbox One

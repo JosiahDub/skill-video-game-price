@@ -1,110 +1,158 @@
 [
     {
-        "contexts": [],
-        "fallbackIntent": false,
-        "auto": true,
-        "name": "game-price-intent",
-        "webhookUsed": true,
         "userSays": [
             {
                 "isTemplate": false,
+                "count": 0,
                 "data": [
                     {
                         "text": "How much does "
                     },
                     {
-                        "userDefined": true,
-                        "meta": "@game",
+                        "alias": "game",
                         "text": "Super Mario Bros",
-                        "alias": "game"
+                        "userDefined": true,
+                        "meta": "@game"
                     },
                     {
                         "text": " cost"
                     }
-                ],
-                "count": 0
+                ]
             },
             {
                 "isTemplate": false,
+                "count": 0,
                 "data": [
                     {
                         "text": "How much does "
                     },
                     {
-                        "userDefined": true,
-                        "meta": "@game",
+                        "alias": "game",
                         "text": "Dark Souls",
-                        "alias": "game"
+                        "userDefined": true,
+                        "meta": "@game"
                     },
                     {
                         "text": " cost for the "
                     },
                     {
-                        "userDefined": true,
-                        "meta": "@console",
+                        "alias": "console",
                         "text": "Xbox 360",
-                        "alias": "console"
+                        "userDefined": true,
+                        "meta": "@console"
                     }
-                ],
-                "count": 0
+                ]
             },
             {
                 "isTemplate": false,
+                "count": 0,
                 "data": [
                     {
                         "text": "How much does "
                     },
                     {
-                        "userDefined": true,
-                        "meta": "@game",
+                        "alias": "game",
                         "text": "Starfox",
-                        "alias": "game"
+                        "userDefined": true,
+                        "meta": "@game"
                     },
                     {
                         "text": " cost for "
                     },
                     {
-                        "userDefined": true,
-                        "meta": "@console",
+                        "alias": "console",
                         "text": "Super Nintendo",
-                        "alias": "console"
+                        "userDefined": true,
+                        "meta": "@console"
                     }
-                ],
-                "count": 0
-            }
-        ],
-        "responses": [
+                ]
+            },
             {
-                "messages": [],
-                "affectedContexts": [],
-                "parameters": [
+                "isTemplate": false,
+                "count": 0,
+                "data": [
                     {
-                        "dataType": "@game",
-                        "name": "game",
-                        "isList": false,
-                        "defaultValue": "",
-                        "prompts": [],
-                        "value": "$game",
-                        "required": true
+                        "text": "How much is "
                     },
                     {
-                        "dataType": "@console",
-                        "name": "console",
-                        "isList": false,
-                        "defaultValue": null,
-                        "prompts": [],
-                        "value": "$console",
-                        "required": false
+                        "alias": "game",
+                        "text": "Professor Layton and the Miracle Mask",
+                        "userDefined": true,
+                        "meta": "@game"
+                    },
+                    {
+                        "text": " for "
+                    },
+                    {
+                        "alias": "console",
+                        "text": "3DS",
+                        "userDefined": true,
+                        "meta": "@console"
                     }
-                ],
-                "resetContexts": false,
-                "action": "game_price"
+                ]
+            },
+            {
+                "isTemplate": false,
+                "count": 0,
+                "data": [
+                    {
+                        "text": "How much for "
+                    },
+                    {
+                        "alias": "game",
+                        "text": "Nier Automata",
+                        "userDefined": true,
+                        "meta": "@game"
+                    },
+                    {
+                        "text": " on "
+                    },
+                    {
+                        "alias": "console",
+                        "text": "Xbox One",
+                        "userDefined": true,
+                        "meta": "@console"
+                    }
+                ]
             }
         ],
-        "templates": [],
-        "priority": 500000,
-        "events": [],
         "webhookForSlotFilling": true,
-        "id": "571df6cc-afbf-48c3-a4a8-1ac5942dc857"
+        "responses": [
+            {
+                "parameters": [
+                    {
+                        "defaultValue": "",
+                        "isList": false,
+                        "dataType": "@game",
+                        "prompts": [],
+                        "value": "$game",
+                        "required": true,
+                        "name": "game"
+                    },
+                    {
+                        "defaultValue": null,
+                        "isList": false,
+                        "dataType": "@console",
+                        "prompts": [],
+                        "value": "$console",
+                        "required": false,
+                        "name": "console"
+                    }
+                ],
+                "action": "game_price",
+                "affectedContexts": [],
+                "resetContexts": false,
+                "messages": []
+            }
+        ],
+        "auto": true,
+        "webhookUsed": true,
+        "name": "game-price-intent",
+        "priority": 500000,
+        "contexts": [],
+        "events": [],
+        "fallbackIntent": false,
+        "id": "571df6cc-afbf-48c3-a4a8-1ac5942dc857",
+        "templates": []
     }
 ]
